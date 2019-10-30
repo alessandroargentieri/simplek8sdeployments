@@ -37,7 +37,7 @@ spec:
         tier: caller-called
     spec:
       containers:
-      - image: alessandroargentieri/caller-caller
+      - image: alessandroargentieri/kuba-caller
         name: caller
         env:
         - name: CALLERPORT
